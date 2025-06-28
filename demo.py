@@ -1,11 +1,8 @@
 def my_fun():
-    a = 5
-    b = 6 
+    a = 10
+    b = 20
+    c = a + b
+    return c
 
-    c = 6 
 
-    return d
-
-my_fun()
-
-test()
+my_fun()  # ✅ Now has 2 blank lines after the function
